@@ -22,5 +22,6 @@ function makeAFloat () {
 
 // Declare a variable "zilch" and assign the number 0 to it, then return "zilch"
 function makeZero () {
-    
+    var zilch = 0
+    return zilch
 }
