@@ -4,15 +4,19 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // 1) Create a function "helloWorld"
 // 2) Return the string "Hello, world!"
+function helloWorld () {
+  var helloWorld = "Hello, world!"
+  return helloWorld
 
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // 1) Create a function "helloName" that accepts 1 parameter (arity of 1)
 // 2) Use the symbol "name" for the parameter name
 // 3) Return the string "Hello, <name>!" where <name> is the value passed to the function
 
-function helloName (name) {
-
+function helloName (Henry) {
+  return "Hello," + " " + Henry + "!"
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
