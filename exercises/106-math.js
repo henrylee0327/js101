@@ -25,7 +25,7 @@ function sum (Henry, Lee) {
 function difference (Henry, Lee) {
     return (Henry - Lee)
 }
-
+difference (5, 3)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Create a function "multiply" that takes 2 number arguments and returns their
 // product.
@@ -44,3 +44,6 @@ function divide (Henry, Lee) {
 // The modulus operator (%) works like remainder from division.
 // Create a function "mod" that takes 2 number arguments and returns the
 // remainder of the first divided by the second.
+function mod (Henry, Lee) {
+    return (Henry % Lee)
+}
