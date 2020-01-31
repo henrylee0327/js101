@@ -22,17 +22,23 @@ function sum (Henry, Lee) {
 // Create a function "difference" that takes 2 number arguments and returns their
 // difference.
 // ie: the second number substracted from the first number
-
+function difference (Henry, Lee) {
+    return (Henry - Lee)
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Create a function "multiply" that takes 2 number arguments and returns their
 // product.
-
+function multiply (Henry, Lee) {
+    return (Henry * Lee)
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Create a function "divide" that takes 2 number arguments and returns the
 // division of the first argument by the second.
-
+function divide (Henry, Lee) {
+    return (Henry / Lee)
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // The modulus operator (%) works like remainder from division.
