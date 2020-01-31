@@ -10,7 +10,7 @@
 
 function threeNumbers () {
   const numbers = { numberOne: 1, numberTwo: 2, numberThree: 3 }
-
+  return numbers
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,8 +18,8 @@ function threeNumbers () {
 // Return the object of values in the function below.
 
 function manyTypes () {
-  const diverseObject = { name: 'banana', count: 42, isDelicious: true }
-
+  const diverseObject = { name: 'banana', count: 42, delicious: true }
+  return diverseObject
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -29,17 +29,17 @@ function manyTypes () {
 // Return the name of the bestFruit Object below.
 
 function keyAccess () {
-  const bestFruit = { name: 'banana', count: 42, isDelicious: true }
+  const bestFruit = { name: 'banana', count: 42, delicious: true }
 
   // console.assert() allows you to declare things that should be true; it's like
   // a sanity-check for your code.
   // Here we are confirming that object access works like we expect:
   console.assert(bestFruit['name'] === 'banana')
   console.assert(bestFruit['count'] === 42)
-  console.assert(bestFruit['isDelicious'] === true)
+  console.assert(bestFruit['delicious'] === true)
 
   // return the name of the bestFruit Object here.
-
+ return bestFruit['name']
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
