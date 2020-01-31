@@ -70,6 +70,8 @@ function usePush () {
 
 function usePop () {
   let arr = ['a', 'b', 'c']
+  arr.pop('c')
+  return arr  
 
 }
 
@@ -82,13 +84,14 @@ function usePop () {
 function useIndexOf () {
   let arr = ['C', 'A', 'G', 'T', 'A', 'A', 'G', 'T']
 
+
   // some demonstration of how .indexOf() works:
   console.assert(arr.indexOf('C') === 0)
   console.assert(arr.indexOf('A') === 1) // note this only returns the *first* instance of 'A'
   console.assert(arr.indexOf('Z') === -1) // no "Z" in this array
 
   // return the index of the first instance of "T" here
-
+  return arr.indexOf('T')
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
