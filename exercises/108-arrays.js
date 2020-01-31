@@ -10,7 +10,7 @@
 
 function threeFruits () {
   const fruits = ['Apple', 'Banana', 'Cherry']
-
+  return fruits
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -19,7 +19,7 @@ function threeFruits () {
 
 function multipleTypes () {
   const diverseArray = ['Skateboard', null, 8.75, 'Eiffel Tower', 44, 7, true, null]
-
+  return diverseArray
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -30,6 +30,8 @@ function multipleTypes () {
 
 function indexAccess () {
   const people = ['Jenny', 'James', 'Jimmy', 'Jonny', 'Julia', 'Jessica']
+  
+  
 
   // console.assert() allows you to declare things that should be true; it's like
   // a sanity-check for your code.
@@ -39,7 +41,7 @@ function indexAccess () {
   console.assert(people[4] === 'Julia')
 
   // return the third item from the "people" array here
-
+  return people[2]
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -48,7 +50,7 @@ function indexAccess () {
 
 function useLength () {
   const arr = ['a', 'b', 'c']
-
+  return arr.length
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,7 +59,9 @@ function useLength () {
 
 function usePush () {
   let arr = ['a', 'b', 'c']
-
+  arr.push('d')
+  return arr
+  
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
