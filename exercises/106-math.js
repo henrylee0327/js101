@@ -7,12 +7,16 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Create a function "add99" that takes one argument and adds the number 99 to it.
 // You can assume that the argument passed in will be a number value.
-
+function add99 (num) {
+    return (num + 99)
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Create a function "sum" that takes 2 arguments and sums them together.
 // Assume that both arguments are numbers.
-
+function sum (Henry, Lee) {
+    return (Henry + Lee)
+}    
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Create a function "difference" that takes 2 number arguments and returns their
