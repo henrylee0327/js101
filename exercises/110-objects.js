@@ -152,5 +152,5 @@ function dotNotation () {
   console.assert(bootcampInstructor.favoriteFoods[0] === 'chicken pot pie')
 
   // Return the name of the bootcampInstructor Object using dot notation
-
+  return bootcampInstructor.name
 }
