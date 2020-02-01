@@ -51,12 +51,13 @@ function addKey () {
   const bestFruit = { name: 'banana', count: 42 }
 
   // Note that before a key is assigned it will always return `undefined`
-  console.assert(bestFruit['isDelicious'] === undefined)
-  bestFruit['isDelicious'] = true
-  console.assert(bestFruit['isDelicious'] === true)
+  console.assert(bestFruit['delicious'] === undefined)
+  bestFruit['delicious'] = true
+  console.assert(bestFruit['delicious'] === true)
 
   // Assign 'yellow' to the key 'color' of bestFruit here and return bestFruit
-
+  bestFruit['color'] = 'yellow'
+  return bestFruit
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -76,11 +77,24 @@ function largeObject () {
     pet: 'cat',
     ownsCar: true
   }
-
+  return bootcampInstructor
+}  
   // create a bootcampStudent object here similar to bootcampInstructor and return it
 
-}
 
+  function largeObject () {
+  const bootcampStudent = {
+    name: 'Henry',
+    email: 'henry@bootcamp.digitalcrafts',
+    age: 35,
+    heightFeet: 5.7,
+    favoriteColor: 'red',
+    homeTown: 'Houston',
+    pet: 'None',
+    ownsCar: true
+  }
+  return bootcampStudent 
+}
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Objects aren't restricted to containing only JavaScript primitive types.
 // Remember, JavaScript primitive types include string, number, boolean, null...
@@ -102,7 +116,7 @@ function nestedArray () {
   console.assert(bootcampInstructor['favoriteFoods'][0] === 'chicken pot pie')
 
   // Return the second item of the nested array favoriteFoods
-
+  return bootcampInstructor['favoriteFoods'][1]
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
